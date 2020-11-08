@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.navbarlogo {
+    height: 80px;
+    width: 250px;
+    margin-left: 100px;
+
+}
+
+.navbar-toggler {
+    border: 1px solid burlywood;
+
+}
+
+.fa-bars {
+    font-size: 35px;
+    color: #069370;
+}
+
+.navbar {
+    background-color: white;
+}
+
+
+.nav-link {
+    font-weight: bolder;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-color .navbar-nav .nav-item {
+    margin: 0 15px 0 15px;
+    line-height: 40px;
+
+}
+
+
+.navbar-nav {
+    float: left;
+}
+
+
+
+.dropdown-menu a {
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+.dropdown-menu {
+    width: 250px;
+    border-top: #069370;
+    border-radius: none;
+}
+
+@media (max-width:1350px) {
+    .navbarlogo {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:1350px) {
+    .navbarlogo {
+        margin-left: 20px;
+    }
+
+    .nav-link {
+        font-size: 17px;
+
+    }
+
+    .navbar-color .navbar-nav .nav-item {
+        margin: 0 6px 0 6px;
+
+    }
+}
+
+@media (max-width:1300px) {
+    .navbarlogo {
+        margin-left: 30px;
+    }
+
+    .nav-link {
+        font-size: 17px;
+
+    }
+
+    .navbar-color .navbar-nav .nav-item {
+        margin: 0 8px 0 12px;
+
+    }
+}
+
+@media (max-width:1299px) {
+    .navbarlogo {
+        margin-left: 60px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        margin: 0 0px 0 8px;
+
+    }
+}
+
+@media (max-width:1199px) {
+    .navbarlogo {
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+
+    }
+
+    .navbar-color .navbar-nav .nav-item {
+        margin: 0 0px 0 0px;
+
+    }
+}
+
+@media (max-width:1150px) {
+    .dropdown-menu a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    .navbarlogo {
+        width: 200px;
+    }
+}

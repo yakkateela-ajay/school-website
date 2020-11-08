@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.count-area {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  background-image: url(./assets/education.jpg);
+}
+
+.count-box {
+  box-shadow: 0px 30px 40px rgba(240, 236, 237, 0.2);
+  background-color: whitesmoke;
+}
+
+.single-count {
+  text-align: center;
+  margin: 45px 0px;
+  padding: 8px 16px;
+  border-right: 1px solid gray;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.single-count h2 {
+  font-size: 36px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.single-count p {
+  font-size: 17px;
+}
+
+@media (max-width:1000px) {
+  .count-area {
+    height: 600px;
+  }
+}
+
+@media (max-width:1000px) {
+  .fa {}
+
+  .count {
+    font-size: 20px;
+  }
+}
